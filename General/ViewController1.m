@@ -33,6 +33,9 @@
     self.navigationItem.leftBarButtonItems = @[spaceItem,barItem];
 //    self.navigationItem.backBarButtonItem = barItem; //不影响侧滑手势
     // Do any additional setup after loading the view.
+    
+    UILabel *laebl = [[UILabel alloc]init];
+    laebl.text = @"godosjdkfkdjfkjdjfidjfidj difjdifjdkjf kdfjkdfjdifdkfjk dfjdkijfkkd lsdkfj sldkfjdk lsdkfhu dfjdk jdfkjs jsdkjfhhhh ksidujfhdj ";
 }
 
 - (void)backBtn{
