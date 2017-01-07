@@ -29,7 +29,7 @@
     UIBarButtonItem *barItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
     UIBarButtonItem * spaceItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
     //将宽度设为负值
-    spaceItem.width = -10;
+    spaceItem.width = -15;
     self.navigationItem.leftBarButtonItems = @[spaceItem,barItem];
 //    self.navigationItem.backBarButtonItem = barItem; //不影响侧滑手势
     // Do any additional setup after loading the view.
