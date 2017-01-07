@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CONST.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [Client getHostData];
+    if (UID){
+        [FPLogInTool autoLogIn];
+    }else{
+        [FPLogInTool logInToolLogIn:@"123456" andUserName:@"15093175576" andBlock:^(NSString *string) {
+            NSLog(@"Login Result:%@",string);
+        }];
+    }
     // Override point for customization after application launch.
     return YES;
 }
