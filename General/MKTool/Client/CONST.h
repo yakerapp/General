@@ -49,6 +49,7 @@
 #import "Client.h"
 #import "FPLogInTool.h"
 #import "NSString+MK.h"
+#import "YYKit.h"
 
 #define kUserDefaultsCookie @"generallogincookie"
 
