@@ -10,6 +10,7 @@
 #import "CONST.h"
 #import "PYPhotosView.h"
 #import "ViewController1.h"
+#import "MKAlertView.h"
 
 @interface ViewController ()
 
@@ -30,7 +31,12 @@
     
     UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tappedTextView:)];
     [textView addGestureRecognizer:tapRecognizer];
-
+    
+    MKAlertView *alert = [[MKAlertView alloc]init];
+    [alert alertWithTitle:@"提示" andImage:[UIImage imageNamed:@"钥匙提示框"] andButtons:@[@"先不开",@"开车门"] andColor:[UIColor blackColor] buttonIndex:^(int index){
+        if (index == 0){
+        }
+    }];
 }
 
 - (void)_initView{

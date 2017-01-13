@@ -39,6 +39,7 @@
 		23353A471DDC5784009C409A /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 23353A251DDC5784009C409A /* UIImageView+HighlightedWebCache.m */; };
 		23353A481DDC5784009C409A /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 23353A271DDC5784009C409A /* UIImageView+WebCache.m */; };
 		23353A491DDC5784009C409A /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 23353A291DDC5784009C409A /* UIView+WebCacheOperation.m */; };
+		2355194D1E2766130048189C /* MKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355194C1E2766130048189C /* MKAlertView.m */; };
 		23D9B0D81DEBC2E8009111A6 /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D9B0D01DEBC2E8009111A6 /* Client.m */; };
 		23D9B0D91DEBC2E8009111A6 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D9B0D41DEBC2E8009111A6 /* MBProgressHUD+Add.m */; };
 		23D9B0DA1DEBC2E8009111A6 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23D9B0D51DEBC2E8009111A6 /* MBProgressHUD.bundle */; };
@@ -148,6 +149,8 @@
 		23353A271DDC5784009C409A /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		23353A281DDC5784009C409A /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		23353A291DDC5784009C409A /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		2355194B1E2766130048189C /* MKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKAlertView.h; sourceTree = "<group>"; };
+		2355194C1E2766130048189C /* MKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKAlertView.m; sourceTree = "<group>"; };
 		23D9B0CF1DEBC2E8009111A6 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
 		23D9B0D01DEBC2E8009111A6 /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
 		23D9B0D11DEBC2E8009111A6 /* CONST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CONST.h; sourceTree = "<group>"; };
@@ -360,6 +363,15 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		2355194A1E2765FF0048189C /* MKAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				2355194B1E2766130048189C /* MKAlertView.h */,
+				2355194C1E2766130048189C /* MKAlertView.m */,
+			);
+			path = MKAlertView;
+			sourceTree = "<group>";
+		};
 		23D9B0CE1DEBC2E8009111A6 /* Client */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,6 +465,7 @@
 		23FA311B1DDABC6600DD9124 /* MKTool */ = {
 			isa = PBXGroup;
 			children = (
+				2355194A1E2765FF0048189C /* MKAlertView */,
 				23D9B0CE1DEBC2E8009111A6 /* Client */,
 				233539E01DDC5784009C409A /* PhotoBrower */,
 				23FA311C1DDABCD900DD9124 /* NetWorkTool */,
@@ -666,6 +679,7 @@
 				23353A381DDC5784009C409A /* PYPhotosView.m in Sources */,
 				23353A421DDC5784009C409A /* SDWebImagePrefetcher.m in Sources */,
 				23353A491DDC5784009C409A /* UIView+WebCacheOperation.m in Sources */,
+				2355194D1E2766130048189C /* MKAlertView.m in Sources */,
 				23353A3A1DDC5784009C409A /* MKAnnotationView+WebCache.m in Sources */,
 				23353A341DDC5784009C409A /* PYProgressView.m in Sources */,
 				23FA31361DDABEE900DD9124 /* AFURLSessionManager.m in Sources */,
